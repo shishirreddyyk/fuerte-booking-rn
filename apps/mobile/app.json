@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Fuerte Booking",
+    "slug": "fuerte-booking-rn",
+    "scheme": "fuertebooking",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "dev.shishir.fuertebooking" },
+    "android": { "package": "dev.shishir.fuertebooking" },
+    "plugins": [
+      "expo-router",
+      ["expo-notifications", { "color": "#1A1A2E" }]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}
